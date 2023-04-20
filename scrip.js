@@ -25,10 +25,10 @@ console.log(frase.toUpperCase().replaceAll('A','I'), frase.length)
 
 //o email '' foi cadastrado com sucesso. seja bem-vindo 'nome usuario'
 
-nomeUsuario = prompt('Por favor, digite seu nome')
-email = prompt('digite seu email')
-console.log(`O email ${email} foi cadastrado com sucesso. 
-Seja bem-vinda(o) ${nomeUsuario} !`)
+//nomeUsuario = prompt('Por favor, digite seu nome')
+//email = prompt('digite seu email')
+//console.log(`O email ${email} foi cadastrado com sucesso. 
+//Seja bem-vinda(o) ${nomeUsuario} !`)
 
 //2. faça um programa seguimdo os passos:
 //a. crie um array vazio e guarde em uma var chamada 'listaDetarefas'
@@ -38,10 +38,43 @@ Seja bem-vinda(o) ${nomeUsuario} !`)
 //e. remova da lista o item de indice que o usuario escolheu
 //f. imprima o array no console
 
-let lista = []
-tarefa1 = prompt('digite uma tarefa')
-tarefa2 = prompt('digite uma tarefa2')
-tarefa3 = prompt('digite uma tarefa3')
-listaDetarefas = lista[tarefa1 + tarefa2 + tarefa3]
-indice = prompt('escolha um indice de uma tarefa que vc ja realizou')
-console.log(lista.splice(tarefa1, tarefa2))
+//let listaDetarefas = []
+//tarefa1 = prompt('digite uma tarefa')
+//tarefa2 = prompt('digite uma tarefa2')
+//tarefa3 = prompt('digite uma tarefa3')
+//console.log(listaDetarefas)
+//listaDetarefas = [tarefa1, tarefa2, tarefa3]
+//let indice = prompt('escolha um indice de 0 a 2')
+//listaDetarefas.splice(indice, 1)
+//alert(listaDetarefas)
+
+//receba uma frase e retorne um array cada
+//elemento é uma das palavras da frase, ignorando os espaços
+
+//let pergunta = prompt('digite uma frase')
+//pergunta.trim;
+//let questao = pergunta.split('')
+//alert(questao + '\n' + questao.length)
+
+//outro
+//let arrayFrutas = ['banana', 'morango', 'abacaxi', 'laranja', 'ameixa']
+//let indice = arrayfrutas.indexOf('abacaxi');
+//console.log(indice, arrayfrutas.lengh)
+
+//outro
+//let comida = ['pizza', 'queijo. banana, x, bombom']
+//alert(comida [0] + '\n'
+//+ comida [1] + '\n'
+//+ comida [2] + '\n'
+//+ comida [3] + '\n'
+//+ comida [4] + '\n')
+
+//comida = prompt('infome, sua comida favorita')
+//console.lo(comidas)
+
+//4
+let num1 = prompt('digite um numero')
+let num2 = prompt('digite um numero 2')
+let num3 = prompt('digite um numero3')
+usuario = [num1, num2, num3]
+alert(usuario + '\n' + usuario.reverse())
